@@ -1,0 +1,34 @@
+{%extends 'mysite/base.html'%}
+
+{%block content%}
+{%load static%}
+<h1><center>Now Time to Relax!</center></h1>
+<div class="card-deck">
+    <div class="card">
+        <img src="{%static 'mysite/images/yoga1.jpg'%}"  class="card-img-top">
+               <a href="{%url 'img4'%}" class="text text-primary"><center>Halasan</center></a>
+</div>
+
+<div class="card">
+    <img src="{%static 'mysite/images/yoga2.jpg'%}" class="card-img-top">
+    <a href="{%url 'img4'%}" class="text text-primary"><center>Dhanurasan</center></a>
+</div>
+
+
+ <div class="card">
+  <img src="{%static 'mysite/images/yoga3.jpg'%}" class="card-img-top">
+     <a href="{%url 'img4'%}" class="text text-primary"><center>Balasana</center></a>
+
+   </div>
+
+   <div class="card">
+  <img src="{%static 'mysite/images/yogaa.jpg'%}" class="card-img-top">
+       <a href="{%url 'img4'%}" class="text text-primary"><center>Padmasan</center></a>
+    </div></div>
+
+
+
+
+
+{%endblock%}
+
